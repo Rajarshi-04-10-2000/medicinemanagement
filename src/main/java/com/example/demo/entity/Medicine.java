@@ -10,7 +10,7 @@ import java.util.Date;
 public class Medicine {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column( nullable = false)
+    @Column( name="medicine_id",nullable = false)
     private long medID;
     @Column(name="medicine_name")
     private String medName;
